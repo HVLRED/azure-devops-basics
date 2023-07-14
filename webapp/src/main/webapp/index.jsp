@@ -3,7 +3,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Welcome to DevOps and DevSecOps</title>
+    <title>Welcome to DevOps and DevSecOps!</title>
     <style>
         body {
             background-color: #272727;
