@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  vmImage: ubuntu-latest
+  vname: hvlubuntu
 
 steps:
 - task: Maven@3
