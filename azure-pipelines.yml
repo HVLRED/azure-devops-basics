@@ -30,9 +30,3 @@ steps:
     targetPath: '$(Pipeline.Workspace)'
     artifact: 'warfile'
     publishLocation: 'pipeline'
-
-- task: CopyFiles@2
-  inputs:
-    SourceFolder: '$(build.artifactstagingdirectory)'
-    Contents: '**'
-    TargetFolder: '$(System.DefaultWorkingDirectory)'
