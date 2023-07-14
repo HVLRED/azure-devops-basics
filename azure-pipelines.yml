@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  vname: hvlubuntu
+  name: hvlubuntu
 
 steps:
 - task: Maven@1
