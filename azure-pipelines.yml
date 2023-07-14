@@ -21,10 +21,10 @@ steps:
     effectivePomSkip: false
     sonarQubeRunAnalysis: false`
     
-- task: CopyFiles@2
-  inputs:
-    Contents: '**/*.war'
-    TargetFolder: '$(build.artifactstagingdirectory)'
+#- task: CopyFiles@2
+#  inputs:
+#    Contents: '**/*.war'
+#    TargetFolder: '$(build.artifactstagingdirectory)'
 - task: PublishPipelineArtifact@1
   inputs:
     targetPath: '$(Pipeline.Workspace)'
