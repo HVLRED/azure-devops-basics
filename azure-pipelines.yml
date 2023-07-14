@@ -31,7 +31,7 @@ steps:
     artifact: 'warfile'
     publishLocation: 'pipeline'
 
-- task: CopyFiles@2
+- task: CopyFiles@3
   inputs:
     SourceFolder: '$(build.artifactstagingdirectory)'
     Contents: '**'
