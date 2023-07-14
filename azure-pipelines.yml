@@ -9,13 +9,13 @@ trigger:
 pool:
   name: hvlubuntu
 
+
+steps:
 - task: JavaToolInstaller@0
   inputs:
     versionSpec: '8'
     jdkArchitectureOption: 'x64'
 
-
-steps:
 - task: Maven@3
   inputs:
     mavenPomFile: 'pom.xml'
